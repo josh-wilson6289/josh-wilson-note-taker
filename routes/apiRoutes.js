@@ -6,7 +6,8 @@ module.exports = function(app) {
   });
 
 app.post("/api/notes", function(req, res) {
-  db.push(req.body)
-  res.json(true);
-});
+  let newNote = req.body
+  db.push(newNote);
+  console.log("new note");
+  });
 }
