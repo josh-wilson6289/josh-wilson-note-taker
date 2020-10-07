@@ -7,12 +7,4 @@ module.exports = function(app) {
   });
 }
 
-// app.post("/api/notes", function(req, res) {
-//   let newNote = req.body;
 
-//   fs.appendFile("db", newNote, function(err) {
-//     if (err) throw err;
-//     console.log("saved");
-//   });
-// });
-// }
